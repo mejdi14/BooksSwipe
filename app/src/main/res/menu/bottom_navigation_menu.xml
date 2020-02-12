@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_search"
+        android:title="home"
+        android:icon="@drawable/group_11"
+        />
+    <item android:id="@+id/action_settings"
+        android:title="add"
+        android:icon="@drawable/group_10" />
+    <item android:id="@+id/action_navigation"
+        android:title="clients"
+        android:icon="@drawable/group_9" />
+</menu>
