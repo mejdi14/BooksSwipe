@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFF4F3"
     tools:context=".MainActivity">
 
     <androidx.viewpager2.widget.ViewPager2
@@ -15,6 +16,26 @@
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textSize="22dp"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:translationX="0dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/text_round_backgound"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

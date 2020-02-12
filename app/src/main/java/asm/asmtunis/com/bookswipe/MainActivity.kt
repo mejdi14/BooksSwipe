@@ -75,6 +75,7 @@ class MainActivity : AppCompatActivity() {
             ) {
                 super.onPageScrolled(position, positionOffset, positionOffsetPixels)
                 Log.d("offset",positionOffset.toString())
+                Log.d("pixel",positionOffsetPixels.toString())
 
             }
         })
