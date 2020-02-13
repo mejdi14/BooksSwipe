@@ -1,10 +1,9 @@
 package asm.asmtunis.com.bookswipe
 
+import android.animation.ArgbEvaluator
 import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import android.view.View.OnScrollChangeListener
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
@@ -19,11 +18,17 @@ private const val NUM_PAGES = 3
 class MainActivity : AppCompatActivity() {
     private lateinit var viewPager: ViewPager2
     lateinit var context: Context
+    lateinit var evaluator: ArgbEvaluator
+    lateinit var colors: IntArray
     private lateinit var bottom_navigation: BottomNavigationView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        evaluator= ArgbEvaluator()
         context=this
+        colors= intArrayOf(context.getColor(R.color.yellow),
+            context.getColor(R.color.orange),
+            context.getColor(R.color.night))
         initBottomNavigationView()
         initPager()
 
@@ -40,31 +45,13 @@ class MainActivity : AppCompatActivity() {
         // The pager adapter, which provides the pages to the view pager widget.
         val pagerAdapter = ScreenSlidePagerAdapter(this)
         viewPager.adapter = pagerAdapter
- /*       viewPager.setOnScrollChangeListener(object : OnScrollChangeListener {
-            override fun onScrollChange(p0: View?, p1: Int, p2: Int, p3: Int, p4: Int) {
-                Log.e("p1", "my Message"+p1)
-                Log.e("p2", "my Message"+p2)
-                Log.e("p3", "my Message"+p3)
-                Log.e("p4", "my Message"+p4)
-                Toast.makeText(applicationContext, "Test", Toast.LENGTH_LONG).show()
-            }
 
-        })
-        viewPager.setOnDragListener(object : View.OnDragListener{
-            override fun onDrag(p0: View?, p1: DragEvent?): Boolean {
-              print("hello")
-                return true
-            }
-
-        })*/
 
         viewPager.setOnClickListener {
-            Toast.makeText(applicationContext, "Test", Toast.LENGTH_LONG).show()
         }
 
         viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
-                Toast.makeText(applicationContext, "Test", Toast.LENGTH_LONG).show()
                 super.onPageSelected(position)
             }
 
@@ -74,15 +61,17 @@ class MainActivity : AppCompatActivity() {
                 positionOffsetPixels: Int
             ) {
                 super.onPageScrolled(position, positionOffset, positionOffsetPixels)
-                Log.d("offset",positionOffset.toString())
-                Log.d("pixel",positionOffsetPixels.toString())
+                if (position < pagerAdapter.itemCount - 1 && position < colors.size - 1) {
+                    viewPager.setBackgroundColor((evaluator.evaluate(positionOffset,colors[position],colors[position+1]) as Int))
+                }else
+                    viewPager.setBackgroundColor(colors[colors.size - 1])
+
 
             }
         })
 
 
 
-        viewPager.setCurrentItem(2,true)
 
 
     }

@@ -8,7 +8,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/data/dao/interfaces/ArticleDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/helper/PrinterHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/activities/MainActivity.java">
           <value>
             <set />
           </value>
@@ -23,7 +33,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/layout/activity_reglement.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/layout/add_article_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/menu/add_ticket_menu.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/library/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProInventory-Mobile/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProInventory-Mobile/app/src/main/java/com/asmtunis/proinventory/ui/activities/PurchaseActivity.java">
           <value>
             <set />
           </value>
@@ -94,6 +129,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <value>
             <set />
           </value>

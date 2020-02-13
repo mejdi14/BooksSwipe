@@ -6,7 +6,7 @@
     <color name="white">#FFFFFF</color>
     <color name="ivory">#FFFFF0</color>
     <color name="light_yellow">#FFFFE0</color>
-    <color name="yellow">#FFFF00</color>
+    <color name="yellow">#FFF4F3</color>
     <color name="snow">#FFFAFA</color>
     <color name="floral_white">#FFFAF0</color>
     <color name="lemon_chiffon">#FFFACD</color>
@@ -23,7 +23,8 @@
     <color name="cold">#FFD700</color>
     <color name="pink">#FFC0CB</color>
     <color name="light_pink">#FFB6C1</color>
-    <color name="orange">#FFA500</color>
+    <color name="orange">#FEF4DF</color>
+    <color name="night">#10205A</color>
     <color name="light_salmon">#FFA07A</color>
     <color name="dark_orange">#FF8C00</color>
     <color name="coral">#FF7F50</color>
@@ -58,6 +59,10 @@
     <color name="burlyWood">#DEB887</color>
     <color name="plum">#DDA0DD</color>
     <color name="gainsboro">#DCDCDC</color>
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#796e25</color>
+    <color name="color4">#59717c</color>
     <color name="crimson">#DC143C</color>
     <color name="pale_violet_red">#DB7093</color>
     <color name="goldenrod">#DAA520</color>
