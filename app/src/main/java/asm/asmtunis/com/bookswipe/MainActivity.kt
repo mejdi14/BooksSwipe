@@ -3,7 +3,6 @@ package asm.asmtunis.com.bookswipe
 import android.animation.ArgbEvaluator
 import android.content.Context
 import android.os.Bundle
-import android.view.View.OnScrollChangeListener
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
@@ -61,10 +60,7 @@ class MainActivity : AppCompatActivity() {
                 positionOffsetPixels: Int
             ) {
                 super.onPageScrolled(position, positionOffset, positionOffsetPixels)
-                if (position < pagerAdapter.itemCount - 1 && position < colors.size - 1) {
-                    viewPager.setBackgroundColor((evaluator.evaluate(positionOffset,colors[position],colors[position+1]) as Int))
-                }else
-                    viewPager.setBackgroundColor(colors[colors.size - 1])
+                changePageColorOnSwipe(position, pagerAdapter, positionOffset)
 
 
             }
@@ -74,6 +70,23 @@ class MainActivity : AppCompatActivity() {
 
 
 
+    }
+
+    private fun changePageColorOnSwipe(
+        position: Int,
+        pagerAdapter: ScreenSlidePagerAdapter,
+        positionOffset: Float
+    ) {
+        if (position < pagerAdapter.itemCount - 1 && position < colors.size - 1) {
+            viewPager.setBackgroundColor(
+                (evaluator.evaluate(
+                    positionOffset,
+                    colors[position],
+                    colors[position + 1]
+                ) as Int)
+            )
+        } else
+            viewPager.setBackgroundColor(colors[colors.size - 1])
     }
 
     private inner class ScreenSlidePagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
@@ -98,9 +111,4 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-private fun ViewPager2.setOnScrollChangeListener(
-    onScrollChangeListener: OnScrollChangeListener,
-    function: () -> Unit
-) {
-    TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-}
+
