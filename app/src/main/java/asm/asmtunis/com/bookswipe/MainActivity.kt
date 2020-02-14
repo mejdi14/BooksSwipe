@@ -11,19 +11,19 @@ import androidx.viewpager2.widget.ViewPager2
 import asm.asmtunis.com.bookswipe.fragment.FirstFragment
 import asm.asmtunis.com.bookswipe.fragment.SecondFragment
 import asm.asmtunis.com.bookswipe.fragment.ThirdFragment
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import kotlinx.android.synthetic.main.activity_main.*
+
 
 private const val NUM_PAGES = 3
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var viewPager: ViewPager2
     lateinit var context: Context
     lateinit var evaluator: ArgbEvaluator
     lateinit var colors: IntArray
-    private lateinit var bottom_navigation: BottomNavigationView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         evaluator = ArgbEvaluator()
         context = this
         initColorsList()
@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
         initPager()
 
     }
+
+
 
     private fun initColorsList() {
         colors = intArrayOf(
@@ -41,19 +43,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initBottomNavigationView() {
-        bottom_navigation = findViewById(R.id.bottom_navigation)
         bottom_navigation.itemIconTintList = null
     }
 
     private fun initPager() {
-        viewPager = findViewById(R.id.pager)
         val pagerAdapter = ScreenSlidePagerAdapter(this)
-        viewPager.adapter = pagerAdapter
+        pager.adapter = pagerAdapter
         manageViewPagerScrollActions(pagerAdapter)
     }
 
     private fun manageViewPagerScrollActions(pagerAdapter: ScreenSlidePagerAdapter) {
-        viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
+        pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)
             }
@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
         positionOffset: Float
     ) {
         if (position < pagerAdapter.itemCount - 1 && position < colors.size - 1) {
-            viewPager.setBackgroundColor(
+            pager.setBackgroundColor(
                 (evaluator.evaluate(
                     positionOffset,
                     colors[position],
@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
                 ) as Int)
             )
         } else
-            viewPager.setBackgroundColor(colors[colors.size - 1])
+            pager.setBackgroundColor(colors[colors.size - 1])
     }
 
     private inner class ScreenSlidePagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
