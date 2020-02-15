@@ -3,6 +3,7 @@ package asm.asmtunis.com.bookswipe
 import android.animation.ArgbEvaluator
 import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
@@ -81,10 +82,13 @@ class MainActivity : AppCompatActivity() {
     private fun animateStars(positionOffset: Float) {
         dots.animate().alpha(1 - positionOffset).setDuration(0).start()
         night_dots.animate().alpha(positionOffset).setDuration(0).start()
+        tomato.animate().translationX(0-((400*positionOffset))).setDuration(0).start()
+        Log.d("offset",(0-((400*positionOffset))).toString())
     }
 
     private fun animateDots(positionOffset: Float) {
         dots.animate().alpha(positionOffset).setDuration(0).start()
+        tomato.animate().translationX(0-(400-(400*positionOffset))).setDuration(0).start()
     }
 
     private fun changePageColorOnSwipe(
