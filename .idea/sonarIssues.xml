@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/DroidMotion/app/src/main/java/com/bitvale/droidmotion/fragment/RecyclerFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/build.gradle">
           <value>
             <set />
@@ -119,6 +124,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/drawable/pickel.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/planet_7.xml">
           <value>
             <set />
           </value>

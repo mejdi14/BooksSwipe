@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-
     private fun initColorsList() {
         colors = intArrayOf(
             context.getColor(R.color.yellow),
@@ -65,9 +64,27 @@ class MainActivity : AppCompatActivity() {
             ) {
                 super.onPageScrolled(position, positionOffset, positionOffsetPixels)
                 changePageColorOnSwipe(position, pagerAdapter, positionOffset)
-                
+                showDotsAndStars(position, positionOffset)
+
             }
         })
+    }
+
+    private fun showDotsAndStars(position: Int, positionOffset: Float) {
+        when(position){
+            0->animateDots(positionOffset)
+            1->animateStars(positionOffset)
+        }
+
+    }
+
+    private fun animateStars(positionOffset: Float) {
+        dots.animate().alpha(1 - positionOffset).setDuration(0).start()
+        night_dots.animate().alpha(positionOffset).setDuration(0).start()
+    }
+
+    private fun animateDots(positionOffset: Float) {
+        dots.animate().alpha(positionOffset).setDuration(0).start()
     }
 
     private fun changePageColorOnSwipe(
