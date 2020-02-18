@@ -3,7 +3,6 @@ package asm.asmtunis.com.bookswipe
 import android.animation.ArgbEvaluator
 import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
@@ -13,6 +12,7 @@ import asm.asmtunis.com.bookswipe.fragment.FirstFragment
 import asm.asmtunis.com.bookswipe.fragment.SecondFragment
 import asm.asmtunis.com.bookswipe.fragment.ThirdFragment
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_first.*
 
 
 private const val NUM_PAGES = 3
@@ -81,14 +81,58 @@ class MainActivity : AppCompatActivity() {
 
     private fun animateStars(positionOffset: Float) {
         dots.animate().alpha(1 - positionOffset).setDuration(0).start()
+        hideVegtablesObjectWithAnimation(positionOffset)
+        showSpaceObjectsWithAnimation(positionOffset)
+    }
+
+    private fun showSpaceObjectsWithAnimation(positionOffset: Float) {
+        mars.animate().translationX(0 - (400 - (400 * positionOffset))).setDuration(0).start()
+        neptune.animate().translationX( (400 - (400 * positionOffset))).setDuration(0).start()
+        moon.animate().translationX((400 - (400 * positionOffset))).setDuration(0).start()
+        saturn.animate().translationX((400 - (400 * positionOffset))).setDuration(0).start()
+        venus.animate().translationY(0 - (600 - (600 * positionOffset))).setDuration(0).start()
+        sun.animate().translationY(0 - (600 - (600 * positionOffset))).setDuration(0).start()
+    }
+
+    private fun hideVegtablesObjectWithAnimation(positionOffset: Float) {
         night_dots.animate().alpha(positionOffset).setDuration(0).start()
-        tomato.animate().translationX(0-((400*positionOffset))).setDuration(0).start()
-        Log.d("offset",(0-((400*positionOffset))).toString())
+        tomato.animate().translationX(0 - ((400 * positionOffset))).setDuration(0).start()
+        potato.animate().translationX(0 - ((400 * positionOffset))).setDuration(0).start()
+        onion.animate().translationX(((400 * positionOffset))).setDuration(0).start()
+        pickel.animate().translationX(((400 * positionOffset))).setDuration(0).start()
+        carrots.animate().translationY(0 - ((600 * positionOffset))).setDuration(0).start()
+        right_half_circle.animate().translationY(0 - ((600 * positionOffset))).setDuration(0)
+            .start()
     }
 
     private fun animateDots(positionOffset: Float) {
+        hidePlantesObjectsWithAnimation(positionOffset)
         dots.animate().alpha(positionOffset).setDuration(0).start()
-        tomato.animate().translationX(0-(400-(400*positionOffset))).setDuration(0).start()
+        showVegtablesObjectsWithAnimation(positionOffset)
+    }
+
+    private fun hidePlantesObjectsWithAnimation(positionOffset: Float) {
+        leaf.animate().translationX( (0- (400 * positionOffset))).setDuration(0).start()
+        if (two_papers!=null){
+
+            two_papers.animate().translationY( ( (400 * positionOffset))).setDuration(0).start()
+        }
+       // if (positionOffset>0.0)
+       // FirstFragment().hideBottomCircle(positionOffset)
+        sanawbar.animate().translationX(( (400 * positionOffset))).setDuration(0).start()
+        ears_tree.animate().translationX(( (400 * positionOffset))).setDuration(0).start()
+        upper_purple_rose.animate().translationY(0 - ( (600 * positionOffset))).setDuration(0).start()
+        purple_rose.animate().translationY(0 - ( (600 * positionOffset))).setDuration(0).start()
+        points_leaf.animate().translationY(0 - ( (600 * positionOffset))).setDuration(0).start()
+    }
+
+    private fun showVegtablesObjectsWithAnimation(positionOffset: Float) {
+        tomato.animate().translationX(0 - (400 - (400 * positionOffset))).setDuration(0).start()
+        potato.animate().translationX(0 - (400 - (400 * positionOffset))).setDuration(0).start()
+        onion.animate().translationX((400 - (400 * positionOffset))).setDuration(0).start()
+        pickel.animate().translationX((400 - (400 * positionOffset))).setDuration(0).start()
+        carrots.animate().translationY(0 - (600 - (600 * positionOffset))).setDuration(0).start()
+        right_half_circle.animate().translationY(0 - (600 - (600 * positionOffset))).setDuration(0).start()
     }
 
     private fun changePageColorOnSwipe(

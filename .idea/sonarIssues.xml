@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/ASM.GIT/DroidMotion/app/src/main/java/com/bitvale/droidmotion/fragment/RecyclerFragment.kt">
           <value>
             <set />
@@ -13,7 +18,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/data/Database.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/data/dao/interfaces/ArticleDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/data/dao/models/Article.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/data/dao/models/ReglementCaisse.java">
           <value>
             <set />
           </value>
@@ -28,7 +48,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/activities/PaymentActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/activities/SplashscreenActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/activities/Ticket2PaymentActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/activities/TicketActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/dialogs/ArticleDialog.java">
           <value>
             <set />
           </value>
@@ -43,12 +83,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/fragments/SettingsFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/layout/activity_reglement.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/layout/add_article_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/layout/fragment_settings.xml">
           <value>
             <set />
           </value>
@@ -64,6 +114,31 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/menu/add_ticket_menu.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/values-en/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/values-fr/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/asm/src/main/java/license/utils/Globals.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/asm/src/main/java/license/utils/PrefUtils.java">
           <value>
             <set />
           </value>
@@ -124,6 +199,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bg_dots_night.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bottom_half_circle.xml">
           <value>
             <set />
           </value>
