@@ -27,6 +27,9 @@
 ## Technologies
 - kotlin
 - ViewPager2
+- Git Flow (with GitKraken)
+- ArgbEvaluator
+- Github Actions
 	
 ## 🤝 Contributing
 
