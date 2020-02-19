@@ -22,6 +22,7 @@
 <p align="center">
 <img src="https://github.com/mejdi14/BooksSwipe/blob/master/images/preview.gif" height="400" width="530" >
 	</p>
+	
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome.<br />
