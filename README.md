@@ -26,7 +26,7 @@
 	
 ## Technologies
 - kotlin
--ViewPager2
+- ViewPager2
 	
 ## 🤝 Contributing
 
