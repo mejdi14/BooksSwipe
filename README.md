@@ -1,9 +1,8 @@
 <h1 align="center">Welcome to book swipe 👋</h1>
 <p align="center">
-  [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
+[![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
-    <img alt="downloads" src="https://img.shields.io/npm/dm/readme-md-generator.svg?color=blue" target="_blank" />
-  </a>
+[![](https://jitpack.io/v/mejdi14/Flat-Dialog-Android.svg)](https://jitpack.io/#mejdi14/Flat-Dialog-Android)
   <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
   </a>
