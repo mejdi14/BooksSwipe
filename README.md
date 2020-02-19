@@ -22,3 +22,24 @@
 <p align="center">
 <img src="https://github.com/mejdi14/BooksSwipe/blob/master/images/preview.gif" height="400" width="530" >
 	</p>
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome.<br />
+Feel free to check [issues page] if you want to contribute.<br />
+
+
+## Author
+
+👤 **Mejdi Hafiane**
+
+- FaceBook: [@MejdiHafiane](https://www.facebook.com/mejdi.marshall)
+
+## Show your support
+
+Please ⭐️ this repository if this project helped you!
+
+
+## 📝 License
+
+Copyright © 2019 [Franck Abgrall](https://github.com/kefranabg).<br />
+This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
