@@ -1,4 +1,4 @@
-package asm.asmtunis.com.bookswipe
+package asm.asmtunis.com.bookswipe.ui
 
 import android.animation.ArgbEvaluator
 import android.content.Context
@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
+import asm.asmtunis.com.bookswipe.R
 import asm.asmtunis.com.bookswipe.fragment.FirstFragment
 import asm.asmtunis.com.bookswipe.fragment.SecondFragment
 import asm.asmtunis.com.bookswipe.fragment.ThirdFragment
@@ -16,6 +17,8 @@ import kotlinx.android.synthetic.main.fragment_first.*
 
 
 private const val NUM_PAGES = 3
+private const val MEDIUM_DISTANCE = 400
+private const val FAR_DISTANCE = 600
 
 class MainActivity : AppCompatActivity() {
     lateinit var context: Context
@@ -32,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         initPager()
 
     }
-
 
     private fun initColorsList() {
         colors = intArrayOf(
@@ -57,26 +59,23 @@ class MainActivity : AppCompatActivity() {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)
             }
-
             override fun onPageScrolled(
                 position: Int,
                 positionOffset: Float,
                 positionOffsetPixels: Int
             ) {
                 super.onPageScrolled(position, positionOffset, positionOffsetPixels)
-                changePageColorOnSwipe(position, pagerAdapter, positionOffset)
+                changePageBackgroundColorOnSwipe(position, pagerAdapter, positionOffset)
                 showDotsAndStars(position, positionOffset)
-
             }
         })
     }
 
     private fun showDotsAndStars(position: Int, positionOffset: Float) {
-        when(position){
-            0->animateDots(positionOffset)
-            1->animateStars(positionOffset)
+        when (position) {
+            0 -> animateDots(positionOffset)
+            1 -> animateStars(positionOffset)
         }
-
     }
 
     private fun animateStars(positionOffset: Float) {
@@ -86,23 +85,28 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showSpaceObjectsWithAnimation(positionOffset: Float) {
-        mars.animate().translationX(0 - (400 - (400 * positionOffset))).setDuration(0).start()
-        neptune.animate().translationX( (400 - (400 * positionOffset))).setDuration(0).start()
-        moon.animate().translationX((400 - (400 * positionOffset))).setDuration(0).start()
-        saturn.animate().translationX((400 - (400 * positionOffset))).setDuration(0).start()
-        venus.animate().translationY(0 - (600 - (600 * positionOffset))).setDuration(0).start()
-        sun.animate().translationY(0 - (600 - (600 * positionOffset))).setDuration(0).start()
+        mars.animate().translationX(0 - (MEDIUM_DISTANCE - (MEDIUM_DISTANCE * positionOffset)))
+            .setDuration(0).start()
+        neptune.animate().translationX((MEDIUM_DISTANCE - (MEDIUM_DISTANCE * positionOffset)))
+            .setDuration(0).start()
+        moon.animate().translationX((MEDIUM_DISTANCE - (MEDIUM_DISTANCE * positionOffset)))
+            .setDuration(0).start()
+        saturn.animate().translationX((MEDIUM_DISTANCE - (MEDIUM_DISTANCE * positionOffset)))
+            .setDuration(0).start()
+        venus.animate().translationY(0 - (FAR_DISTANCE - (FAR_DISTANCE * positionOffset)))
+            .setDuration(0).start()
+        sun.animate().translationY(0 - (FAR_DISTANCE - (FAR_DISTANCE * positionOffset)))
+            .setDuration(0).start()
     }
 
     private fun hideVegtablesObjectWithAnimation(positionOffset: Float) {
         night_dots.animate().alpha(positionOffset).setDuration(0).start()
-        tomato.animate().translationX(0 - ((400 * positionOffset))).setDuration(0).start()
-        potato.animate().translationX(0 - ((400 * positionOffset))).setDuration(0).start()
-        onion.animate().translationX(((400 * positionOffset))).setDuration(0).start()
-        pickel.animate().translationX(((400 * positionOffset))).setDuration(0).start()
-        carrots.animate().translationY(0 - ((600 * positionOffset))).setDuration(0).start()
-        right_half_circle.animate().translationY(0 - ((600 * positionOffset))).setDuration(0)
-            .start()
+        tomato.animate().translationX(0 - ((MEDIUM_DISTANCE * positionOffset))).setDuration(0).start()
+        potato.animate().translationX(0 - ((MEDIUM_DISTANCE * positionOffset))).setDuration(0).start()
+        onion.animate().translationX(((MEDIUM_DISTANCE * positionOffset))).setDuration(0).start()
+        pickel.animate().translationX(((MEDIUM_DISTANCE * positionOffset))).setDuration(0).start()
+        carrots.animate().translationY(0 - ((FAR_DISTANCE * positionOffset))).setDuration(0).start()
+        right_half_circle.animate().translationY(0 - ((FAR_DISTANCE * positionOffset))).setDuration(0).start()
     }
 
     private fun animateDots(positionOffset: Float) {
@@ -112,30 +116,38 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun hidePlantesObjectsWithAnimation(positionOffset: Float) {
-        leaf.animate().translationX( (0- (400 * positionOffset))).setDuration(0).start()
-        if (two_papers!=null){
+        animateFragmentObjects(positionOffset)
+        leaf.animate().translationX((0 - (MEDIUM_DISTANCE * positionOffset))).setDuration(0).start()
+        sanawbar.animate().translationX(((MEDIUM_DISTANCE * positionOffset))).setDuration(0).start()
+        ears_tree.animate().translationX(((MEDIUM_DISTANCE * positionOffset))).setDuration(0).start()
+        upper_purple_rose.animate().translationY(0 - ((FAR_DISTANCE * positionOffset))).setDuration(0).start()
+        purple_rose.animate().translationY(0 - ((FAR_DISTANCE * positionOffset))).setDuration(0).start()
+        points_leaf.animate().translationY(0 - ((FAR_DISTANCE * positionOffset))).setDuration(0).start()
+    }
 
-            two_papers.animate().translationY( ( (400 * positionOffset))).setDuration(0).start()
+    private fun animateFragmentObjects(positionOffset: Float) {
+        if (two_papers != null) {
+            two_papers.animate().translationY(((MEDIUM_DISTANCE * positionOffset))).setDuration(0).start()
         }
-       // if (positionOffset>0.0)
-       // FirstFragment().hideBottomCircle(positionOffset)
-        sanawbar.animate().translationX(( (400 * positionOffset))).setDuration(0).start()
-        ears_tree.animate().translationX(( (400 * positionOffset))).setDuration(0).start()
-        upper_purple_rose.animate().translationY(0 - ( (600 * positionOffset))).setDuration(0).start()
-        purple_rose.animate().translationY(0 - ( (600 * positionOffset))).setDuration(0).start()
-        points_leaf.animate().translationY(0 - ( (600 * positionOffset))).setDuration(0).start()
     }
 
     private fun showVegtablesObjectsWithAnimation(positionOffset: Float) {
-        tomato.animate().translationX(0 - (400 - (400 * positionOffset))).setDuration(0).start()
-        potato.animate().translationX(0 - (400 - (400 * positionOffset))).setDuration(0).start()
-        onion.animate().translationX((400 - (400 * positionOffset))).setDuration(0).start()
-        pickel.animate().translationX((400 - (400 * positionOffset))).setDuration(0).start()
-        carrots.animate().translationY(0 - (600 - (600 * positionOffset))).setDuration(0).start()
-        right_half_circle.animate().translationY(0 - (600 - (600 * positionOffset))).setDuration(0).start()
+        tomato.animate().translationX(0 - (MEDIUM_DISTANCE - (MEDIUM_DISTANCE * positionOffset)))
+            .setDuration(0).start()
+        potato.animate().translationX(0 - (MEDIUM_DISTANCE - (MEDIUM_DISTANCE * positionOffset)))
+            .setDuration(0).start()
+        onion.animate().translationX((MEDIUM_DISTANCE - (MEDIUM_DISTANCE * positionOffset)))
+            .setDuration(0).start()
+        pickel.animate().translationX((MEDIUM_DISTANCE - (MEDIUM_DISTANCE * positionOffset)))
+            .setDuration(0).start()
+        carrots.animate().translationY(0 - (FAR_DISTANCE - (FAR_DISTANCE * positionOffset)))
+            .setDuration(0).start()
+        right_half_circle.animate()
+            .translationY(0 - (FAR_DISTANCE - (FAR_DISTANCE * positionOffset))).setDuration(0)
+            .start()
     }
 
-    private fun changePageColorOnSwipe(
+    private fun changePageBackgroundColorOnSwipe(
         position: Int,
         pagerAdapter: ScreenSlidePagerAdapter,
         positionOffset: Float
@@ -168,8 +180,6 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
-
-
     }
 }
 

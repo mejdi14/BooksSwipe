@@ -8,7 +8,57 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/ASM.GIT/DroidMotion/app/src/main/java/com/bitvale/droidmotion/fragment/RecyclerFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/java/com/asmtunis/merchandiser/helper/PrefUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/java/com/asmtunis/merchandiser/ui/activities/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/java/com/asmtunis/merchandiser/ui/dialog/CheckDialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/java/com/asmtunis/merchandiser/ui/fragments/VisitFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/res/drawable/blocker_prompt.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/res/drawable/road.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/res/layout/check_dialog_layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/res/layout/off_limit_dialog.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/asm/src/main/res/values/strings.xml">
           <value>
             <set />
           </value>
@@ -183,6 +233,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/asm/asmtunis/com/bookswipe/ui/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/drawable-v24/right_half_circle.xml">
           <value>
             <set />
@@ -203,7 +258,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bnv_tab_item_foreground.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bottom_half_circle.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/leaf_with_dots.xml">
           <value>
             <set />
           </value>
@@ -223,12 +288,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/purple_rose.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/drawable/text_round_backgound.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/drawable/tomato.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/top_half_circle.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/upper_purple_rose.xml">
           <value>
             <set />
           </value>
