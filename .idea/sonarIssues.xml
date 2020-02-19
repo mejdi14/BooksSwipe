@@ -3,12 +3,362 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/DroidMotion/app/src/main/java/com/bitvale/droidmotion/fragment/RecyclerFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/java/com/asmtunis/merchandiser/helper/PrefUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/java/com/asmtunis/merchandiser/ui/activities/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/java/com/asmtunis/merchandiser/ui/dialog/CheckDialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/java/com/asmtunis/merchandiser/ui/fragments/VisitFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/res/drawable/blocker_prompt.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/res/drawable/road.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/res/layout/check_dialog_layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/app/src/main/res/layout/off_limit_dialog.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/New-ASM-merchendiser/asm/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/data/Database.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/data/dao/interfaces/ArticleDAO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/data/dao/models/Article.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/data/dao/models/ReglementCaisse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/helper/PrinterHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/activities/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/activities/PaymentActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/activities/SplashscreenActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/activities/Ticket2PaymentActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/activities/TicketActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/dialogs/ArticleDialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/dialogs/BarcodeScannerDialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/fragments/DashboardFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/java/com/asmtunis/procaissemobility/ui/fragments/SettingsFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/layout/activity_reglement.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/layout/add_article_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/layout/fragment_settings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/layout/reglement_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/layout/sale_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/menu/add_ticket_menu.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/values-en/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/values-fr/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/asm/src/main/java/license/utils/Globals.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/asm/src/main/java/license/utils/PrefUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProCaisseMobilityGit/library/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProInventory-Mobile/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/ASM.GIT/ProInventory-Mobile/app/src/main/java/com/asmtunis/proinventory/ui/activities/PurchaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/asm/asmtunis/com/bookswipe/MainActivity.kt">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/asm/asmtunis/com/bookswipe/fragment/FirstFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/asm/asmtunis/com/bookswipe/fragment/SecondFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/asm/asmtunis/com/bookswipe/fragment/ThirdFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/asm/asmtunis/com/bookswipe/ui/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable-v24/right_half_circle.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable-v24/top_half_circle.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bg_dots.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bg_dots_night.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bnv_tab_item_foreground.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bottom_half_circle.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/leaf_with_dots.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/onion.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/pickel.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/planet_7.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/purple_rose.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/text_round_backgound.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/tomato.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/top_half_circle.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/upper_purple_rose.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/vege_4.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_second.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_third.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation_menu.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
           <value>
             <set />
           </value>
