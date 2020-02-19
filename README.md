@@ -41,5 +41,5 @@ Please ⭐️ this repository if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [Franck Abgrall](https://github.com/kefranabg).<br />
-This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
+Copyright © 2019 [Mejdi Hafiane](https://github.com/mejdi14).<br />
+This project is [MIT](https://github.com/mejdi14/readme-md-generator/blob/master/LICENSE) licensed.
