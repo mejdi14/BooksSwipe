@@ -16,6 +16,8 @@
  
 </p>
 
-> CLI that generates beautiful README.md files.<br /> `readme-md-generator` will suggest you default answers by reading your `package.json` and `git` configuration.
+<p align="center">
+<img src="https://github.com/mejdi14/BooksSwipe/blob/master/images/books.png" height="300" width="300" >
+	</p>
 
 ## ✨ Demo
