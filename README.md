@@ -18,7 +18,8 @@
 <img src="https://github.com/mejdi14/BooksSwipe/blob/master/images/books.png" height="300" width="300" >
 	</p>
 	
-## :art: 	
+## :art:Credits
+- Many thanks to : [@Marta Skowron](https://dribbble.com/skowrony) for the amazing design
 
 ## ✨ Demo
 <p align="center">
