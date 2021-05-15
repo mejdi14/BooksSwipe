@@ -10,7 +10,6 @@
     <img src="https://img.shields.io/badge/changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
   </a>
  
- 
 </p>
 
 <p align="center">
