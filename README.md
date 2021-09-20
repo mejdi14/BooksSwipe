@@ -41,7 +41,7 @@ Feel free to check [issues page] if you want to contribute.<br />
 
 👤 **Mejdi Hafiane**
 
-- FaceBook: [@MejdiHafiane](https://www.facebook.com/mejdi.marshall)
+- Twitter: [@MejdiHafiane](https://twitter.com/mejdi141)
 
 ## Show your support
 
